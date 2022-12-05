@@ -16,9 +16,10 @@ Travail attendu
 
 Pour permettre ce déploiement, il faudra donc :
 
-• Un fichier Dockerfile pour chacun des 3 composants vote, result et worker. Un template
-est fourni pour chacun de ces services dans le répertoire de chaque composant.
+• Un fichier Dockerfile pour chacun des 3 composants vote, result et worker. Un template est fourni pour chacun de ces services dans le répertoire de chaque composant.
+
 • Créer un fichier de configuration docker-compose.yml décrivant le déploiement de la stack.
+
 • Pour améliorer les performances, on déploiera 2 conteneurs vote.
 
 Partie bonus
@@ -28,7 +29,9 @@ Partie bonus
 Rendu attendu
 
 • Les 3 Dockerfile.
+
 • Le fichier docker-compose.yml.
+
 • Les fichiers et/ou commandes de configuration k8s (bonus).
 
 
